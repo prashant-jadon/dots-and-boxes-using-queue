@@ -45,20 +45,21 @@ GameScreen({required this.isVsComputer});
 @override
 _GameScreenState createState() => _GameScreenState();
 }
+```
+
+```
 Making Moves
-dart
-Copy code
 void makeMove(int x, int y, bool isHorizontal) {
 // Existing logic for making a move
 }
+```
+
+```
 Undo Move Functionality
-dart
-Copy code
 void undoMove() {
 if (moveHistory.isNotEmpty) {
 final lastMove = moveHistory.removeLast();
 // Logic to revert the last move
 }
 }
-
 ```
